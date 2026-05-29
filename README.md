@@ -6,7 +6,8 @@ Das ist das README.md File unseres Repositories. Die Dateieendung .md steht für
 - Extensible Markup Language (XML)
 - Yet Another Markup Language (YAML, YML)
 
-Achtung! Die Abkürzung ML steht nicht immer für *Markup Language*, sie kann auch *Machine Learning* heißen.
+> **Achtung!**
+> Die Abkürzung ML steht nicht immer für *Markup Language*, sie kann auch *Machine Learning* heißen.
 
 ## Playlist zur Funktionsweise des Internets
 
