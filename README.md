@@ -30,3 +30,14 @@ Bits können über verschiedene Übertragungsmedien zwischen Computern versendet
 - einfach in der Verarbeitung
 - weit verbreitet
 - hohe Verluste über mittlere und lange Distanzen (hunderte Meter)
+
+**2. Licht / Glasfaserkabel**
+
+- schnelle Übertragung
+- verlustfrei
+- geeignet für Ozeankabel
+- teuer und schwierig in der Verarbeitung
+
+**3. Funk / Radiowellen**
+
+- hoher Komfort, Internet überall
