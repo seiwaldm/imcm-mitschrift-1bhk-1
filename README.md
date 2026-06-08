@@ -41,3 +41,14 @@ Bits können über verschiedene Übertragungsmedien zwischen Computern versendet
 **3. Funk / Radiowellen**
 
 - hoher Komfort, Internet überall
+
+### Teil 8 - The Internet: How Search Works
+
+- Suchmaschinen-Bots (*Crawler*) durchstreifen ständig das WWW und katalogisieren Websites. Der so enstehende Katalog wird auch **Index** genannt.
+- wenn wir einen Suchbegriff bei Google (oder einer anderen *Search Engine*) eingeben, wird NICHT das WWW durchsucht, sondern lediglich der zuvor erstellte Index
+- Suchergebnisse werden auf Basis eines (geheimen) Algorithmus geranked - Ergebnisse, die weiter oben stehen, werden öfter angeklickt
+- Einfluss auf das Ranking haben u.a.:
+    - im Text vorkommende Suchbegriffe (*Keywords*)
+    - Links, die auf meine Seite zeigen (*Backlinks*)
+- die Suchergebnisse werden an die Benutzer*innen angepasst! D.h., nicht jede/r sieht die gleichen Informationen, selbst wenn sie idente Suchanfragen durchführen!
+- [Startpage](https://www.startpage.com/) ist eine datensparsame Suchmaschine, die ihren Benutzern*innen die Verwendung von Google ohne Tracking oder Personalisierung erlaubt
