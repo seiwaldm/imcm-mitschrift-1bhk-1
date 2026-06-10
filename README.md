@@ -13,8 +13,6 @@ Das ist das README.md File unseres Repositories. Die Dateieendung .md steht für
 
 ![TCP-IP-Modell](/assets/tcp-ip-stack.webp)
 
-<img alt="TCP-IP-Modell" src="/assets/tcp-ip-stack.webp">
-
 ### Teil 1 - What is the Internet?
 
 - das Internet wurde in den 1970er-Jahren entwickelt
