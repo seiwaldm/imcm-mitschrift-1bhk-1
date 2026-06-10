@@ -11,6 +11,8 @@ Das ist das README.md File unseres Repositories. Die Dateieendung .md steht für
 
 ## Playlist zur Funktionsweise des Internets
 
+![TCP-IP-Modell](/assets/tcp-ip-stack.webp)
+
 ### Teil 1 - What is the Internet?
 
 - das Internet wurde in den 1970er-Jahren entwickelt
@@ -49,6 +51,15 @@ Bits können über verschiedene Übertragungsmedien zwischen Computern versendet
 - jedes Gerät im Internet hat zumindest eine (eindeutige) IP-Adresse, viele Geräte haben aber eine externe IP (ähnlich wie die Hausnummer) und eine interne IP (ähnlich wie die Raumnummer)
 - das Domain Name System (DNS) übersetzt menschenlesbare Domainnamen (z.B.: www.google.com) in IP-Adressen
 - DNS-Server führen Tabellen mit Domainnamen und den entsprechenden IP-Adressen
+
+### Teil 4 - The Internet: Packets, Routing & Reliability
+
+- über das Internet versendete Daten werden in Pakete aufgeteilt
+- einzelne Pakete haben eine Größe von ca. 1,5kB. D.h., ein Foto mit einer Größe von 10MB wird in ca. 6700 Pakete aufgeteilt, bevor es über das Internet versendet wird
+- Pakete können unterschiedliche Routen durch das Internet nehmen. Die Route wird je nach Auslastung, Störungen etc. durch spezielle Computer - die Router - dynamisch bestimmt.
+- jedes Paket enthält die Quell- und Ziel-IP-Adresse sowie eine eindeutige Paketnummer
+- das _Transmission Control Protocol_ (TCP) prüft am Ziel, ob alle Pakete einer Übertragung angekommen sind. Falls Pakete fehlen, fordert es diese erneut vom Absender an.
+- TCP und IP bilden gemeinsam das Rückgrat des Internets. Man spricht daher auch vom TCP/IP-Modell bzw. _TCP/IP-Stack_.
 
 ### Teil 8 - The Internet: How Search Works
 
