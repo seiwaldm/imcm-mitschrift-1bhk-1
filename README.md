@@ -86,3 +86,19 @@ Bits können über verschiedene Übertragungsmedien zwischen Computern versendet
   - Links, die auf meine Seite zeigen (_Backlinks_)
 - die Suchergebnisse werden an die Benutzer\*innen angepasst! D.h., nicht jede/r sieht die gleichen Informationen, selbst wenn sie idente Suchanfragen durchführen!
 - [Startpage](https://www.startpage.com/) ist eine datensparsame Suchmaschine, die ihren Benutzern\*innen die Verwendung von Google ohne Tracking oder Personalisierung erlaubt
+
+---
+
+### Ergänzung: Überblick über das TCP/IP-Modell
+
+Im TCP/IP-Modell übernimmt jede Schicht eine eigene Aufgabe (merke: *"divide and conquer"*), hat einen eigenen Namen für die versendeten Dateneinheiten und einen eigenen Adressierungsmechanismus:
+
+| Schicht   | Protokoll | Dateneinheit | Adressen     |
+| ---       | ---       | ---          | ---          |
+| Internet  | IP        | Paket        | IP-Adressen  |
+| Transport | TCP       | Segment      | Ports        |
+| Link      | Ethernet  | Frame        | MAC-Adressen |
+
+Die Daten der Anwendungsschicht werden auf der Transportschicht in ein Segment verpackt. Dieses wird in der Internetschicht in ein Paket verpackt; und dieses schlussendlich in der Link-Schicht in ein Frame.
+
+![Datenkapselung im TCP/IP-Modell](/assets/segment-packet-frame.jpg)
